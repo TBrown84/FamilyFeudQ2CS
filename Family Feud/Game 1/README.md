@@ -1,6 +1,6 @@
-# Sapient Family Feud
+# Q2 Creative Services Family Feud
 
-This repository contains a basic web application that models the gameboard from Family Feud using HTML, CSS, and jQuery. It includes the interface of the gameboard, the basic gameplay functionality, and an optional websocket to connect buzzers. It was originally created for a SapientNitro Chicago office event where we surveyed employees on questions related to our office and culture. It is now available for reuse on your next event. 
+This repository contains a basic web application that models the gameboard from Family Feud using HTML, CSS, and jQuery. It includes the interface of the gameboard, the basic gameplay functionality, and an optional websocket to connect buzzers. It was created for a Q2 ebankink office event where we surveyed employees on questions related to our office and team. It is now available for reuse on your next event. 
 
 ## Basic Usage 
 
@@ -38,7 +38,7 @@ To update the survey data, all you need to do is replace the values after the "q
 
 #### UI and Styling
 
-The default skin for the gameboard was designed in accordance with the Sapient Chicago Blend style guide. In the assets folder, you will see that the building blocks of the game board are just image assets. There are as follows:
+The default skin for the gameboard was designed for Q2 Creative Services. In the assets folder, you will see that the building blocks of the game board are just image assets. There are as follows:
 * The Wrong answer X's
 * The background image
 * the question/answer block
@@ -83,10 +83,7 @@ function open_websocket() {
 }
 ~~~~
 
-You can use your own internal websocket or an open source option such as [socket.io](http://socket.io/ "Websocket"). At Sapient, we used Channels, an IoT platform developed by Sapient's IoT Lab. If you are interested in using Channels, feel free to contact us. 
+You can use your own internal websocket or an open source option such as [socket.io](http://socket.io/ "Websocket").  For this event we did not use the websockets because we did not build the buzzers in time for the event.
 
-This structure allows you to be creative and construct "hardware" for truly interactive gameplay. For our purposes, we soldered the chips from a basic mouse onto a red button we purchased from [Sparkfun](https://www.sparkfun.com/ "Sparkfun"). We then put this button into a container and labeled them. Every time the red button was pressed it triggered a mouse click event that sent data to the websocket. Feel free to get creative and do this whatever way you want. Here is an example of ours
-
-![Buzzers for Family Feud](https://s31.postimg.org/xx8fetn8r/IMG_9577_1.jpg "Buzzers")
 
 
