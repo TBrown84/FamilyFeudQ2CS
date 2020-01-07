@@ -9,6 +9,8 @@ This repository contains a basic web application that models the gameboard from 
 * Display an Answer: Press the corresponding number key, #1-8 (To hide an answer simply press the corresponding number key again)
 * Show Wrong Answer X: Press the Spacebar
 * Go to next question: Mouse Click
+* Award points to the left team: Press 'A'
+* Award points to the right team: Press 'B'
 
 Game control options are specified in the feud.js file and can be edited to best suit your purposes. 
 
